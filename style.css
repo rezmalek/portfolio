@@ -68,6 +68,65 @@ header {
 }
 
 
+.main {
+    background-color: #EEEEF8;
+}
+
+.flex-container {
+    margin-left: 5vw;
+    padding: 30px 0;
+    width: 87%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.flex-container h3 {
+    flex: 1 20%;
+    font-size: 35px;
+    border-right: 3px solid #465670;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    color: #465670;
+}
+
+/* about me */
+
+#about-me p {
+    flex: 2 80%;
+    padding-left: 30px;
+    color: #465670;
+}
+
+/* my work */
+
+#my-work div {
+    flex: 2 80%;
+}
+
+/* contact me */
+
+#contact-me {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-me ul {
+    flex: 2 80%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contact-me a {
+    text-decoration: none;
+    padding: 10px 18px;
+    color: #465670;
+    font-weight: 600;
+}
 
 
 
