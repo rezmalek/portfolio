@@ -67,6 +67,7 @@ header {
     margin-right: 70px;
 }
 
+/* main */
 
 .main {
     background-color: #EEEEF8;
@@ -79,14 +80,11 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-
 }
 
 .flex-container h3 {
     flex: 1 20%;
     font-size: 35px;
-    border-right: 3px solid #465670;
     display: flex;
     justify-content: flex-end;
     padding-right: 10px;
@@ -99,9 +97,34 @@ header {
     flex: 2 80%;
     padding-left: 30px;
     color: #465670;
+    line-height: 1.5;
+    text-align: justify;
+    border-left: 3px solid #465670;
+
 }
 
 /* my work */
+
+.work-container {
+    padding-left: 30px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-gap: 5px;
+    border-left: 3px solid #465670;
+}
+
+.work-item {
+    border: 5px solid #9FC7CE;
+}
+.run-buddy {
+    grid-area: 1 / 1 / span 2 / span 2;
+    padding: 200px 0;
+    
+}
+
+.mole {
+    grid-area: 3 / 1;
+}
 
 #my-work div {
     flex: 2 80%;
@@ -112,6 +135,7 @@ header {
 #contact-me {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #contact-me ul {
@@ -119,6 +143,8 @@ header {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    border-left: 3px solid #465670;
+    padding: 15px 0;
 }
 
 #contact-me a {
@@ -128,7 +154,22 @@ header {
     font-weight: 600;
 }
 
+/* footer */
 
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 35px;
+    background-color: #32343C;
+    
+}
+
+footer h6 {
+    color: #9FC7CE;
+    font-size: 20px;
+    margin: 0 auto;
+}
 
 
 
