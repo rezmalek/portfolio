@@ -106,7 +106,6 @@ header {
     line-height: 1.5;
     text-align: justify;
     border-left: 3px solid #465670;
-
 }
 
 /* my work */
@@ -201,6 +200,67 @@ footer h6 {
     margin: 0 auto;
 }
 
+/* media query */
+
+@media screen and (max-width: 980px) {
+    .navigation a {
+        font-size: 21px;
+    }
+
+    .my-name, .hero h2 {
+        font-size: 35px;
+    }
+
+    .hero h2 {
+        margin-top: 18vw;
+        margin-right: 60px;
+    }
+
+    .flex-container h3 {
+        font-size: 28px;
+    }
+
+    .work-container {
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    }
+
+    .run-buddy {
+        grid-area: 1 / 1 / 2 / 2;
+        height: 200px;
+        padding-top: 0;
+    }
+
+    #contact-me a {
+        font-weight: 400;
+    }
+
+    footer h6 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        justify-content: center;
+    }
+    .my-name {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navigation ul {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 1px;
+        justify-content: center;
+    }
+
+    .hero h2 {
+        font-size: 25px;
+        margin-top: 18vw;
+        margin-right: 50px;
+    }
+}
 
 
 
