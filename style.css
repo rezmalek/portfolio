@@ -46,6 +46,12 @@ header {
     color: #9FC7CE;
 }
 
+.navigation a:hover {
+    color: #32343C;
+    background-color: #9FC7CE;
+    border-radius: 10px;
+}
+
 /* hero */
 
 .hero {
@@ -109,21 +115,39 @@ header {
     padding-left: 30px;
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-    grid-gap: 5px;
+    grid-gap: 7px;
     border-left: 3px solid #465670;
 }
 
 .work-item {
     border: 5px solid #9FC7CE;
-}
-.run-buddy {
-    grid-area: 1 / 1 / span 2 / span 2;
-    padding: 200px 0;
-    
+    border-radius: 5px;
 }
 
-.mole {
-    grid-area: 3 / 1;
+.work-item h5 {
+    background-color:  #9FC7CE;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 110px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #465670;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.run-buddy {
+    grid-area: 1 / 1 / span 2 / span 2;
+    padding-top: 180px;
+    height: 400px;
+    background-image: url(./img/runBuddy.jpeg);
+    background-size: cover;
+}
+
+.drumKit {
+    background-image: url(./img/drumKit.jpeg);
+    background-size: cover;
+
 }
 
 #my-work div {
@@ -152,6 +176,12 @@ header {
     padding: 10px 18px;
     color: #465670;
     font-weight: 600;
+}
+
+#contact-me a:hover {
+    background-color: #465670;
+    color: #EEEEF8;
+    border-radius: 10px;
 }
 
 /* footer */
