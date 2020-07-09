@@ -152,6 +152,11 @@ header {
 
 }
 
+.taskinator {
+    background-image: url(./img/taskinator.jpeg);
+    background-size: cover;
+}
+
 #my-work div {
     flex: 2 80%;
 }
