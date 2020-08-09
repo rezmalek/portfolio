@@ -138,11 +138,16 @@ header {
     border-bottom-right-radius: 5px;
 }
 
-.run-buddy {
+h5 p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.taskmaster-pro {
     grid-area: 1 / 1 / span 2 / span 2;
     padding-top: 180px;
     height: 400px;
-    background-image: url(./img/runBuddy.jpeg);
+    background-image: url(./img/taskmaster-pro.jpg);
     background-size: cover;
 }
 
@@ -154,6 +159,11 @@ header {
 
 .taskinator {
     background-image: url(./img/taskinator.jpeg);
+    background-size: cover;
+}
+
+.run-buddy{
+    background-image: url(./img/runBuddy.jpeg);
     background-size: cover;
 }
 
