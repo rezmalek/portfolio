@@ -167,6 +167,11 @@ h5 p {
     background-size: cover;
 }
 
+.git-it-done {
+    background-image: url(./img/git-it-don.jpg);
+    background-size: cover;
+}
+
 #my-work div {
     flex: 2 80%;
 }
