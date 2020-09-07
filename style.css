@@ -241,7 +241,7 @@ footer h6 {
         grid-template: repeat(3, 1fr) / repeat(2, 1fr);
     }
 
-    .run-buddy {
+    .taskmaster-pro {
         grid-area: 1 / 1 / 2 / 2;
         height: 200px;
         padding-top: 0;
@@ -288,8 +288,10 @@ footer h6 {
 }
 
 @media screen and (max-width: 575px) {
+  
     .navigation a {
         font-size: 18px;
+        
     }
     
     .hero {
@@ -323,9 +325,6 @@ footer h6 {
         margin-left: 10px;
     }
 
-    #contact-me a {
-        font-weight: lighter;
-    }
     .work-container {
         margin-left: 10px;
         grid-template-rows: repeat(6, 1fr);
@@ -338,6 +337,26 @@ footer h6 {
 
     footer h6 {
         font-size: 12px;
+        
+    }
+
+    #contact-me ul {
+        display: inline;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    #contact-me a {
+        background-color: #465670;
+        color: #EEEEF8;
+        border-radius: 5px;
+        padding: 3px;
+        font-weight: lighter;
+        
+    }
+
+    footer {
+        text-align: center;
     }
 }
 
